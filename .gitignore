@@ -1,0 +1,15 @@
+composer.lock
+.editorconfig
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/app/tmp
+/storage/tmp
+/vendor
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+*.log

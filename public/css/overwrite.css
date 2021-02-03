@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.dl-horizontal dt {
+	text-align: left;
+}
+
+.dl-horizontal dt,dd {
+	padding-top: 15px;
+}
+
+.ol-margin li {
+	margin-bottom: 10px;
+}
+
+.inquiry-des {
+	font-size: 0.9em;
+	line-height: 1.5;
+	background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.menu-account {
+	top: -5px !important;
+}
+
+.infoTime {
+	font-size: 20px;
+	position: relative;
+	top: 5px;
+}
+
+.timeColor {
+	color: #aaa;	
+}
+
+.form_headLine {
+	margin-bottom: 5px !important;
+	margin-top: 30px !important;
+}
+
+.passwordReset {
+	font-size: 0.8em;
+	color: #B0B0B0;
+}
+
+/* 20200421追加 */
+
+table.company th{
+	background: #4da6ff !important;
+}
+.positioncheckbox{
+	background: #f8f8f8;
+    padding: 15px;
+}
+.positioncheckbox .labeltitle{
+	margin-bottom: 0;
+	font-weight: bold;
+}
+.positioncheckbox .form-group{
+	margin-bottom: 0;
+}
+.check_agree{
+	margin: 15px 15px 0;
+    color: dodgerblue;
+    font-weight: bold !important;
+}
+[type="checkbox"] + label:before, [type="checkbox"]:not(.filled-in) + label:after{
+	border: 2px solid dodgerblue;
+}
+[type="checkbox"]:checked + label:before{
+	border-right: 2px solid dodgerblue;
+	border-bottom: 2px solid dodgerblue;
+}
+
+/* 20200423追加 */
+
+.pdf-js{
+	margin: 10px 0 5px;
+	background: #f4f4ff;
+	padding: 10px;
+	border: 1px solid dodgerblue;
+}
+.pdf-js a{
+    display: flex;
+    align-items: center;
+    color: dodgerblue;
+    font-weight: bold;
+}
+.pdf-dl{
+	margin: 10px 0 10px !important;
+	background: #f4f4ff;
+	padding: 10px;
+	border: 1px solid dodgerblue;
+}
+.pdf-dl a{
+    display: flex;
+    align-items: center;
+    color: dodgerblue;
+    font-weight: bold;
+}
